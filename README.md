@@ -1,1 +1,1 @@
-# thepong
+# The Pong multiplayer
