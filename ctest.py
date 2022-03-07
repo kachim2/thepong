@@ -11,7 +11,7 @@ port = 40674
 s.connect(('127.0.0.1', port))
   
 # receive data from the server
-print(int.from_bytes( s.recv(64), "little"))
+print(int(s.recv(64).decode()))
   
 # close the connection
 s.close()
